@@ -13,7 +13,7 @@ import android.widget.ListView;
 
 public class ActividadesDePruebas extends ListActivity {
 
-    String practicas[] = {"Intents_Act_01","Intents_Act_02","Intents_Act_03","CicloDeVida"};
+    String practicas[] = {"Intents_Act_01","Intents_Act_02","Intents_Act_03","CicloDeVida","Pulsame","ImplicitIntents"};
 
 
    final static String TAG= ActividadesDePruebas.class.getName();
@@ -28,8 +28,7 @@ public class ActividadesDePruebas extends ListActivity {
         setListAdapter(adaptador);}
 
     @Override
-    protected void onListItemClick(ListView lista, View vista,
-                                   int posicion, long id){
+    protected void onListItemClick(ListView lista, View vista,int posicion, long id){
         super.onListItemClick(lista, vista, posicion, id);
         String nombrePractica = practicas[posicion];
         String uri = "com.example.alumnot.listaactividades."+nombrePractica;

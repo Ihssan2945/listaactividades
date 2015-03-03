@@ -48,6 +48,14 @@
             android:name=".CicloDeVida"
             android:label="@string/title_activity_ciclo_de_vida" >
         </activity>
+        <activity
+            android:name=".Pulsame"
+            android:label="@string/title_activity_pulsame" >
+        </activity>
+        <activity
+            android:name=".ImplicitIntents"
+            android:label="@string/title_activity_implicit_intents" >
+        </activity>
     </application>
 
 </manifest>

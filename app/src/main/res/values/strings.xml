@@ -15,5 +15,7 @@
     <string name="title_activity_intents">Intents</string>
     <string name="title_activity_intents__act_03_b">Intents_Act_03_b</string>
     <string name="title_activity_ciclo_de_vida">CicloDeVida</string>
+    <string name="title_activity_pulsame">Pulsame</string>
+    <string name="title_activity_implicit_intents">ImplicitIntents</string>
 
 </resources>
